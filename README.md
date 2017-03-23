@@ -1,2 +1,2 @@
-# go-ip
+# go-camel
 Go integration patterns
