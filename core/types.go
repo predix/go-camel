@@ -9,7 +9,7 @@ type Exchange struct {
 
 // Message is the unit of data that is being consumed and produced by endpoints and processors within a route.
 type Message struct {
-	Header map[string][]string
+	Header map[string]interface{}
 	Body   []byte
 }
 
