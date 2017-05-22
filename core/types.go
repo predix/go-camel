@@ -15,7 +15,7 @@ type Message struct {
 
 // Endpoint describes endpoint that can be consumed by different components
 type Endpoint interface {
-	Process(xchng Exchange)
+	Process(xchng Exchange) (out Message)
 }
 
 // RouteBuilder is the interface used to build routes using DSL.
